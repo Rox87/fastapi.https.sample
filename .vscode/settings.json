@@ -1,0 +1,4 @@
+{
+    "aiCommit.model": "deepseek/deepseek-chat:free",
+    "aiCommit.openRouterApiKey": "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"
+}
