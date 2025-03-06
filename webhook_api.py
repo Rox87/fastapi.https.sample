@@ -64,7 +64,7 @@ async def post_hook(request: Request):
         return {'fulfillmentText': f"{req}"}
                  
 if __name__ == '__main__':
-        subprocess.Popen(['python', '-m', 'secure_redirect'])  # Add this
+        subprocess.Popen(['python', '-m', 'https_redirect'])  # Add this
         uvicorn.run(
            'main:app', port=443, host='127.0.0.1',
            reload=True
